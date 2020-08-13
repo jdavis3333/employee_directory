@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "first_name": "Brandon",
+        "last_name": "Belt",
+        "phone_number": "415-777-6601",
+        "email_address": "belt@sfgiants.com",
+        "birthday": "01/02/1992",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/474832.jpg"
+    },
+    {
+        "id": 2,
+        "first_name": "Brandon",
+        "last_name": "Crawford",
+        "phone_number": "415-777-6602",
+        "email_address": "crawford@sfgiants.com",
+        "birthday": "01/20/1995",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/543063.jpg"
+    },
+    {
+        "id": 3,
+        "first_name": "Johnny",
+        "last_name": "Cueto",
+        "phone_number": "415-777-6603",
+        "email_address": "cueto@sfgiants.com",
+        "birthday": "04/20/1992",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/456501.jpg"
+    },
+    {
+        "id": 4,
+        "first_name": "Alex",
+        "last_name": "Dickerson",
+        "phone_number": "415-777-6604",
+        "email_address": "dickerson@sfgiants.com",
+        "birthday": "04/26/1999",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/543105.jpg"
+    },
+    {
+        "id": 5,
+        "first_name": "Wilmer",
+        "last_name": "Flores",
+        "phone_number": "415-777-6605",
+        "email_address": "@sfgiants.com",
+        "birthday": "02/22/1997",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/527038.jpg"
+    },
+    {
+        "id": 6,
+        "first_name": "Evan",
+        "last_name": "Longoria",
+        "phone_number": "415-777-6606",
+        "email_address": "longoria@sfgiants.com",
+        "birthday": "04/28/2001",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/446334.jpg"
+    },
+    {
+        "id": 7,
+        "first_name": "Hunter",
+        "last_name": "Pence",
+        "phone_number": "415-777-6607",
+        "email_address": "pence@sfgiants.com",
+        "birthday": "9/15/2000",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/452254.jpg"
+    },
+    {
+        "id": 8,
+        "first_name": "Pablo",
+        "last_name": "Sandoval",
+        "phone_number": "415-777-6608",
+        "email_address": "sandoval@sfgiants.com",
+        "birthday": "10/02/1995",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/467055.jpg"
+    },
+    {
+        "id": 9,
+        "first_name": "Austin",
+        "last_name": "Slater",
+        "phone_number": "415-777-6609",
+        "email_address": "slater@sfgiants.com",
+        "birthday": "12/22/1996",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/596103.jpg"
+    },
+    {
+        "id": 10,
+        "first_name": "Donavon",
+        "last_name": "Solano",
+        "phone_number": "415-777-6610",
+        "email_address": "solano@sfgiants.com",
+        "birthday": "06/02/1995",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/456781.jpg"
+    },
+    {
+        "id": 11,
+        "first_name": "Chadwick",
+        "last_name": "Tromp",
+        "phone_number": "415-777-6611",
+        "email_address": "tromp@sfgiants.com",
+        "birthday": "07/02/1992",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/644433.jpg"
+    },
+    {
+        "id": 12,
+        "first_name": "Mike",
+        "last_name": "Yastremski",
+        "phone_number": "415-777-6612",
+        "email_address": "yaz@sfgiants.com",
+        "birthday": "11/02/1998",
+        "image": "https://securea.mlb.com/mlb/images/players/head_shot/573262.jpg"
+    }
+]
