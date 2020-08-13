@@ -1,0 +1,31 @@
+{
+  "name": "employee_directory",
+  "version": "1.0.0",
+  "description": "employee directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdavis3333/employee_directory.git"
+  },
+  "keywords": [
+    "employee",
+    "directory",
+    "react"
+  ],
+  "author": "Joe Davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdavis3333/employee_directory/issues"
+  },
+  "homepage": "https://github.com/jdavis3333/employee_directory#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.2"
+  }
+}
