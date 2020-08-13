@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-// import MyJumbotron from "./components/Jumbotron";
+import MyJumbotron from "./components/jumbotron";
 // import MySearch from "./components/search";
 import EmployeeTable from "./components/employee-table";
 import data from "../src/giants.json";
@@ -21,8 +21,8 @@ class App extends React.Component {
     this.setState({
       data: data.sort((a, b) => (
         this.state.direction[key] === 'asc'
-          ? parseFloat(a[key]) - parseFLoat(b[key])
-          : parseFloat(b[key]) - parseFLoat(a[key])
+          // ? parseFloat(a[key]) - parseFLoat(b[key])
+          // : parseFloat(b[key]) - parseFLoat(a[key])
       )),
       direction: {
         [key]: this.state.direction[key] === 'asc'
@@ -35,8 +35,8 @@ class App extends React.Component {
   render() {
       return(
       <div className = "App" >
-        {/* <MyJumbotron />
-      <MySearch /> */}
+        <MyJumbotron />
+      {/* <MySearch /> */}
           < EmployeeTable 
         data = { this.state.data } 
         sortBy = { this.sortBy } />  
