@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import MyJumbotron from "./components/jumbotron";
-// import MySearch from "./components/search";
+import MySearch from "./components/search";
 import EmployeeTable from "./components/employee-table";
 import data from "../src/giants.json";
 
@@ -36,7 +36,7 @@ class App extends React.Component {
       return(
       <div className = "App" >
         <MyJumbotron />
-      {/* <MySearch /> */}
+      <MySearch />
           < EmployeeTable 
         data = { this.state.data } 
         sortBy = { this.sortBy } />  
