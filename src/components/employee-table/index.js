@@ -7,7 +7,11 @@ export default function EmployeeTable(props) {
                 <tr>
                     <th>Image</th>
                     <th>First Name</th>
-                    <th>Last Name</th>
+                    <th>
+                        <p
+                        onClick={() => props.sortBy('last_name')}
+                        >Last Name</p>
+                    </th>
                     <th>Phone Number</th>
                     <th>Email</th>
                     <th>DOB</th>
