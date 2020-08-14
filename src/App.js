@@ -12,39 +12,49 @@ class App extends React.Component {
     this.state = {
       data: data,
       search: "",
-      direction: {
-        first_name: 'asc'
-      }
+      direction: 'asc'
     }
-    this.sortBy = this.sortBy.bind(this)
+    // this.sortBy = this.sortBy.bind(this)
   }
 
-  sortBy(key) {
-    this.setState({
-      data: data.sort((a, b) => (
-        this.state.direction[key] === 'asc'
-        // ? parseFloat(a[key]) - parseFLoat(b[key])
-        // : parseFloat(b[key]) - parseFLoat(a[key])
-      )),
-      direction: {
-        [key]: this.state.direction[key] === 'asc'
-          ? 'desc'
-          : 'asc'
+  sortName = () => {
+    var employee = this.state.data
+    //check state, then do for loop. in else part, swap to desc. also change state of direction 
+    for (var i = 0; i < employee.length; i++) {
+      for (var j = 0; j < employee.length; j++) {
+        if (employee[i].name > employee[j].name) {
+          var temp = employee[i]
+          employee[i] = employee[j]
+          employee[j] = temp
+        // }else {
+        //   this.state.direction[key] === 'desc'
+        }
       }
-    })
+      this.setState({ data: data })
+    }
+    console.log(employee)
+    // this.setState({
+    //   data: data.sort((a, b) => (
+    //     this.state.direction[key] === 'asc'
+    //     // ? parseFloat(a[key]) - parseFLoat(b[key])
+    //     // : parseFloat(b[key]) - parseFLoat(a[key])
+    //   )),
+    //   direction: {
+    //     [key]: this.state.direction[key] === 'asc'
+    //       ? 'desc'
+    //       : 'asc'
+    //   }
+    // })
   }
 
   searchName = (event) => {
     var value = event.target.value
     console.log(value)
     this.setState({ search: value })
-    if (value == "") {
+    if (value === "") {
       this.setState({ data: data })
     } else {
-
-
       var newList = []
-
       var employee = this.state.data
       for (let i = 0; i < employee.length; i++) {
         var n = (employee[i].name.toLowerCase()).indexOf(value.toLowerCase());
@@ -65,11 +75,25 @@ class App extends React.Component {
         <Container fluid>
           <Form.Control value={this.state.search} onChange={this.searchName} type="text" placeholder="search" />
         </Container>
+        <table>
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>
+                <p
+                  onClick={this.sortName}
+                >Name</p>
+              </th>
+              <th>Phone Number</th>
+              <th>Email</th>
+              <th>DOB</th>
+            </tr>
+          </thead>
 
-
-        < EmployeeTable
-          data={this.state.data}
-          sortBy={this.sortBy} />
+          < EmployeeTable
+            data={this.state.data}
+            sortBy={this.sortBy} />
+        </table>
       </div>
     );
   }

@@ -5,7 +5,7 @@ import { Form, Container } from 'react-bootstrap';
 function MySearch() {
     return (
         <Container fluid>
-            <Form.Control type="text" placeholder="search" />
+            <Form.Control type="text" placeholder="Search Name" />
         </Container>
     );
 }
