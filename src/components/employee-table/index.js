@@ -6,11 +6,10 @@ export default function EmployeeTable(props) {
             <thead>
                 <tr>
                     <th>Image</th>
-                    <th>First Name</th>
                     <th>
                         <p
                         onClick={() => props.sortBy('last_name')}
-                        >Last Name</p>
+                        > Name</p>
                     </th>
                     <th>Phone Number</th>
                     <th>Email</th>
@@ -22,8 +21,7 @@ export default function EmployeeTable(props) {
                     props.data.map(row => (
                         <tr>
                             <td>{row.image}</td>
-                            <td>{row.first_name}</td>
-                            <td>{row.last_name}</td>
+                            <td>{row.name}</td>
                             <td>{row.phone_number}</td>
                             <td>{row.email_address}</td>
                             <td>{row.birthday}</td>
