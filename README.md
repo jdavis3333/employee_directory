@@ -21,7 +21,7 @@ Employee Directory is an application that allows employers search and sort throu
 
 ### Use
 
-![GIF]()
+![GIF](employee_directory.gif)
 
 * Created app.js homepage
 ```
