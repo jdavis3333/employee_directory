@@ -26,25 +26,13 @@ class App extends React.Component {
           var temp = employee[i]
           employee[i] = employee[j]
           employee[j] = temp
-        // }else {
-        //   this.state.direction[key] === 'desc'
+
         }
       }
       this.setState({ data: data })
     }
     console.log(employee)
-    // this.setState({
-    //   data: data.sort((a, b) => (
-    //     this.state.direction[key] === 'asc'
-    //     // ? parseFloat(a[key]) - parseFLoat(b[key])
-    //     // : parseFloat(b[key]) - parseFLoat(a[key])
-    //   )),
-    //   direction: {
-    //     [key]: this.state.direction[key] === 'asc'
-    //       ? 'desc'
-    //       : 'asc'
-    //   }
-    // })
+
   }
 
   searchName = (event) => {
