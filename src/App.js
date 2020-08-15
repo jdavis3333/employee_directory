@@ -61,27 +61,29 @@ class App extends React.Component {
       <div className="App" >
         <MyJumbotron />
         <Container fluid>
-          <Form.Control value={this.state.search} onChange={this.searchName} type="text" placeholder="search" />
+          <Form.Control value={this.state.search} onChange={this.searchName} type="text" placeholder="search name" />
         </Container>
-        <table>
-          <thead>
-            <tr>
-              <th>Image</th>
-              <th>
-                <p
-                  onClick={this.sortName}
-                >Name</p>
-              </th>
-              <th>Phone Number</th>
-              <th>Email</th>
-              <th>DOB</th>
-            </tr>
-          </thead>
+        <Container fluid>
+          <table>
+            <thead>
+              <tr>
+                {/* <th>Image</th> */}
+                <th>
+                  <p
+                    onClick={this.sortName}
+                  >Name</p>
+                </th>
+                <th>Phone Number</th>
+                <th>Email</th>
+                <th>DOB</th>
+              </tr>
+            </thead>
 
-          < EmployeeTable
-            data={this.state.data}
-            sortBy={this.sortBy} />
-        </table>
+            < EmployeeTable
+              data={this.state.data}
+              sortBy={this.sortBy} />
+          </table>
+        </Container>  
       </div>
     );
   }

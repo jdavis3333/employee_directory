@@ -7,7 +7,7 @@ export default function EmployeeTable(props) {
                 {
                     props.data.map((row,key) => (
                         <tr key={key}>
-                            <td>{row.image}</td>
+                            {/* <td>{row.image}</td> */}
                             <td>{row.name}</td>
                             <td>{row.phone_number}</td>
                             <td>{row.email_address}</td>

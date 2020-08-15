@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Belt",
+        "name": "Belt, Brandon",
         "phone_number": "415-777-6601",
         "email_address": "belt@sfgiants.com",
         "birthday": "01/02/1992",
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "name": "Crawford",
+        "name": "Crawford, Brandon",
         "phone_number": "415-777-6602",
         "email_address": "crawford@sfgiants.com",
         "birthday": "01/20/1995",
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "name": "Cueto",
+        "name": "Cueto, Johnny",
         "phone_number": "415-777-6603",
         "email_address": "cueto@sfgiants.com",
         "birthday": "04/20/1992",
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "name": "Dickerson",
+        "name": "Dickerson, Alex",
         "phone_number": "415-777-6604",
         "email_address": "dickerson@sfgiants.com",
         "birthday": "04/26/1999",
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "name": "Flores",
+        "name": "Flores, Wilmer",
         "phone_number": "415-777-6605",
         "email_address": "flores@sfgiants.com",
         "birthday": "02/22/1997",
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "name": "Longoria",
+        "name": "Longoria, Evan",
         "phone_number": "415-777-6606",
         "email_address": "longoria@sfgiants.com",
         "birthday": "04/28/2001",
@@ -49,7 +49,7 @@
     },
     {
         "id": 7,
-        "name": "Pence",
+        "name": "Pence, Hunter",
         "phone_number": "415-777-6607",
         "email_address": "pence@sfgiants.com",
         "birthday": "9/15/2000",
@@ -57,7 +57,7 @@
     },
     {
         "id": 8,
-        "name": "Sandoval",
+        "name": "Sandoval, Pablo",
         "phone_number": "415-777-6608",
         "email_address": "sandoval@sfgiants.com",
         "birthday": "10/02/1995",
@@ -65,7 +65,7 @@
     },
     {
         "id": 9,
-        "name": "Slater",
+        "name": "Slater, Austin",
         "phone_number": "415-777-6609",
         "email_address": "slater@sfgiants.com",
         "birthday": "12/22/1996",
@@ -73,7 +73,7 @@
     },
     {
         "id": 10,
-        "name": "Solano",
+        "name": "Solano, Donavon",
         "phone_number": "415-777-6610",
         "email_address": "solano@sfgiants.com",
         "birthday": "06/02/1995",
@@ -81,7 +81,7 @@
     },
     {
         "id": 11,
-        "name": "Tromp",
+        "name": "Tromp, Chadwick",
         "phone_number": "415-777-6611",
         "email_address": "tromp@sfgiants.com",
         "birthday": "07/02/1992",
@@ -89,7 +89,7 @@
     },
     {
         "id": 12,
-        "name": "Yastremski",
+        "name": "Yastremski, Mike",
         "phone_number": "415-777-6612",
         "email_address": "yaz@sfgiants.com",
         "birthday": "11/02/1998",
